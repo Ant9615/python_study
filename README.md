@@ -29,4 +29,4 @@ python study  for data analytics
 : 전라북도 인구추이에 dataset을 구하여 추이변동, 인구증가예측 등 개인프로젝트를 시행한다.
 
 <h2>NEXT</h2>
-: python 이용한 
+: python 이용한 머신러닝
