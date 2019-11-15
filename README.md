@@ -1,5 +1,6 @@
 # python_study
-python study  for data analytics
+python study  for data analytics <br>
+참고한 책: 파이썬 데이터 분석 입문(한빛미디어, 클린턴 브라운리 지음, 한창진, 이병욱 )
 
 <h2> ch1. BASIC PYTHON </h2>   
 : 파이썬의 기초 문법을 공부하여 데이터분석의 초석을 다진다.
