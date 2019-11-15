@@ -10,7 +10,7 @@ python study  for data analytics
 # ch3. EXCEL FILE <br>
 : excel파일을 이용하여 워크시트 처리, 읽기, 처리 등을 공부한다.
 
-#ch4. DATABASE <br>
+# ch4. DATABASE <br>
 : python 내장모듈 sqlite3을 이용하여 테이블 레트드 삽입, 갱신, 입력, 파일출력 등을 공부한다.
 
 # ch5. APPLIED <br>
