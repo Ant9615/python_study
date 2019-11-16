@@ -35,11 +35,10 @@ print("2: {0:d}".format(count))
 # output to string pattern
 str3="Please see me reaching out for someone I can't see" 
 str3_list=str3.split()
-pattern=re.compile(r"(?P<wword>someone)", re.I) #wword는 mathing word group명임 읨의 설정 가능
-print("3: ")
+pattern=re.compile(r"(?P<wword>i)", re.I) #wword는 mathing word group명임 읨의 설정 가능
 for word in str3_list:
     if pattern.search(word):
-        print("{:s}".format(pattern.search(word).group('wword')))
+        print("3:{:s}".format(pattern.search(word).group('wword')))
         
 #string 일부분 대체 
 str4="God, tell us the reason youth is wasted on the young"
