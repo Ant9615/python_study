@@ -2,6 +2,8 @@ from math import exp, log, sqrt
 import re 
 from datetime import date, time, datetime, timedelta
 from operator import itemgetter
+# 리스트는 많은 business analysis에서 많이 쓰이며 \
+# python에서는 객체들의 순서가 있는 모임으로 단순한 리스트보다 훨씬 유연함
 
 # 리스트생성
 a_list = [1, 2, 3]
