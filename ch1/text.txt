@@ -1,0 +1,6 @@
+파이썬 
+C 
+R 
+PostgreSQL
+Javascript
+Django
