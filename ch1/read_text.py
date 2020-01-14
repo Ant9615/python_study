@@ -21,3 +21,9 @@ file_reader = open(input_file,'r', encoding='UTF-8')
 for row in file_reader:
     print(row.strip())
 file_reader.close() #모든 행을 읽었을 때 filereader객체를 닫음 
+#명령프롬모트나 터미널에 읽기코드가 있는 파일위치에 경로를 정하고
+# " python '코드파일 명' '텍스트파일 명' "
+# 텍스트 파일이 다른 경로에 잇을 때
+#" python '코드파일 명' "텍스트파일 위치경로" "
+
+#새로운 파일 읽기 문법 
