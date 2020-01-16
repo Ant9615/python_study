@@ -4,6 +4,7 @@ Created on Fri Nov  8 22:10:29 2019
 
 @author: STUDENT
 """
+#.format은 매우 유용하고 많은 키를 입력을 보여줄 수 있음 즉, 값을 받아 출력할 때 간편하고 유용함
 from math import exp, log, sqrt
 
 #output to integer num. 
