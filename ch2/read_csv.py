@@ -1,5 +1,9 @@
+# csv파일은 숫자나 문자열로 구성되어 있는 표(or spreadsheet)형태의 데이터가 text로 저장됨
+# 일반 text로 저장되므로 이를 저장하거나 전송하고 처리할 수 있는 프로그램이 다양함 
+# 간단한 text edditor로도 csv파일을 처리 가능함 
+ 
 import sys
-# python에 기본으로 내장되어 있는 sys 모듈은 명영 중레서 추가적으로 입력된 인수를 스크립트로 넘겨줌
+# python에 기본으로 내장되어 있는 sys 모듈은 명령 줄에서 추가적으로 입력된 인수를 스크립트로 넘겨줌
 
 input_file = sys.argv[1]
 output_file = sys.argv[2]
@@ -28,3 +32,7 @@ with open(input_file, 'r', newline='') as reader:
             writer.write(','.join(map(str, row_list))+'\n')  # 값을 출력파일에 저장
 
             # python read_csv.py (csv파일 명) (출력하고 싶은 csv파일명)
+#예제 파일 13행 cost를 $1,006,015.00으로 바꾸면 출력값이 $1 나온다. 이는 파싱이 잘 못된 경우인데 h_list = header.split(',')가\
+# ,기준으로 데이터를 읽게 구성되었기에 1의 값만 나온다 이를 개선하기 위해서 스크립트의 코드를 정규표현식을 이용하여 쉼표가 포함된 문자 열 패턴을\
+# 검색한 다음 행을 쉼표를 제거를 할 수 있다. 하지만, 스크립트를 복잡하게 만드는 대신 파이썬에 내장된 csv모듈을 사용할 수 있다\
+# 이 묘듈은 임의적이고 복잡한 csv파일을 처리할 수 있도록 디자인 되어 있다. (read_csv2.py로)  
